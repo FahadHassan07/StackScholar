@@ -1,0 +1,78 @@
+[33m4e389bd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial commit
+[33m713bae2[m[33m ([m[1;31morigin/main[m[33m)[m Merge pull request #2 from MalithShehan/backend-security-prod
+[33m79d5303[m 📝 docs: Add world-class README and comprehensive GitHub setup
+[33mfbf2600[m ✨ Major Update: Fix All Errors, Add Voice TTS, Complete Documentation
+[33m4847d72[m docs: Add premium features implementation summary
+[33m435c4bf[m feat: Add offline storage and new dependencies
+[33mfd293c8[m feat: Add gamification and study plan screens (frontend)
+[33mbe5c0a8[m feat: Add AI study plan generator (backend)
+[33m9b0a377[m feat: Add gamification system (backend)
+[33m8a47439[m feat: Add orange theme system and dark mode support
+[33mca61044[m feat(frontend): Add Past Paper management screen
+[33m8e664a7[m feat(frontend): Add glassmorphism UI components
+[33mf3220f3[m feat(backend): Add Past Paper API endpoints
+[33m1a535fc[m feat(backend): Add PastPaper model and FCM support
+[33m104bce3[m docs: Add comprehensive feature guides
+[33maf13c61[m feat(frontend): Update navigation and existing screens
+[33mf7eacd0[m feat(frontend): Add premium screens and Google OAuth
+[33m00cb6ec[m feat(frontend): Add premium UI components and hooks
+[33me5b3f44[m chore(backend): Update dependencies
+[33mdf8c1c9[m feat(backend): Add AI voice and recommendations features
+[33m437d72f[m feat(backend): Add Google OAuth and results endpoints
+[33ma0470c1[m feat(backend): Add Quiz and Result database models
+[33m8adbcb1[m docs: Add comprehensive documentation suite
+[33m9141dff[m feat: connect LoginScreen, RegisterScreen, and HomeScreen to real backend API
+[33m5c0a8d1[m feat: add API client with JWT injection and React auth context provider
+[33mc6a966d[m feat: replace volatile in-memory study store with persistent MongoDB Session model
+[33m9d4ff9a[m security: add protect middleware to AI and study routes to prevent unauthenticated access
+[33md494e2c[m fix: replace non-existent allowedMimeTypes with allowedImageTypes in upload middleware
+[33m0eafc8d[m chore: exclude Firebase credentials and backend logs from version control
+[33m78455f6[m chore: update backend .gitignore to protect secrets and logs
+[33me5e41e0[m Merge pull request #1 from MalithShehan/backend-security-prod
+[33m6200b07[m chore: ignore logs directory
+[33md2f46b2[m feat: advanced security, Swagger docs, admin APIs, and production deployment configs
+[33meff2666[m Rebuild HomeScreen.tsx to match new design
+[33m69eb938[m feat(routes): Register /uploads and /ocr route prefixes
+[33m86e3fb7[m feat(quiz): Enhance MCQ schema — add questionNumber, type, topic, and richer explanations
+[33m6938613[m feat(ocr): OCR pipeline — extract, extract+summarize, extract+quiz from image/PDF
+[33meb3845f[m feat(uploads): Secure file upload API — profile image, note image, PDF via Cloudinary
+[33mdf4d938[m feat(services): Add ocrService — GPT-4o vision OCR for images, pdf-parse for PDFs
+[33m6ee222b[m feat(services): Add cloudinaryService — profile image, note image, and PDF upload to Cloudinary
+[33mbed6a95[m feat(utils): Add multerMemory — memory-storage multer for image, PDF, and any uploads
+[33m8ca9d5d[m feat(config): Add Cloudinary config + expand upload limits (images 10MB, PDFs 20MB)
+[33m9448ef6[m chore(deps): Add cloudinary and pdf-parse
+[33m0a35fed[m feat(routes): Add AI routes for summarization, quiz generation, and Q&A
+[33m667507d[m feat(validators): Add validation for AI endpoints
+[33mda972fb[m feat(controllers): Add endpoints for AI summarization, quiz generation, and Q&A
+[33m14c9659[m feat(services): Implement OpenAI integration for summarization, quiz generation, and Q&A
+[33m2559427[m feat(config): Add OpenAI configuration (API key, model, token limits, retry)
+[33mad23e23[m chore(lockfile): Update lockfile for OpenAI SDK
+[33mca29b2b[m chore(deps): Add OpenAI SDK to dependencies
+[33m6a48dcc[m chore(env): Add OpenAI vars (API key, model, token limits, retry)
+[33m8228cc8[m feat(auth): JWT auth system, User model, MongoDB, role-based middleware
+[33me24cf96[m Refactor backend: production-ready architecture, middleware, services, validators
+[33m80f190e[m feat: add AppNavigator with Stack + custom Bottom Tab bar and FAB scanner button
+[33mb19f554[m feat: add NotificationsScreen with read/unread states and filter pills
+[33m1abff21[m feat: add TimetableScreen with weekly calendar, exam tracker and schedule list
+[33mbca7d23[m feat: add AIScannerScreen with animated scan line and simulated result mode
+[33m9e1f79a[m feat: add ProfileScreen with stats, settings toggles and logout
+[33m16ad793[m feat: add LibraryScreen with search, category filter and study card list
+[33m1d63cdd[m feat: add QuizGeneratorScreen with setup/quiz/results 3-mode flow and timer
+[33md8aaeb2[m feat: add AISummaryScreen text summarization with expo-clipboard copy support
+[33m8486ed7[m feat: add AskQuestionScreen chat UI with AI tutor bubbles and typing indicator
+[33m3e45ab4[m feat: add HomeScreen dashboard with animated header, quick actions grid and subject cards
+[33mac5d077[m feat: add RegisterScreen with name/email/password fields and terms checkbox
+[33m95e9243[m feat: add LoginScreen with gradient header, email/password inputs and social login
+[33m18dd729[m feat: add OnboardingScreen with 3-slide carousel and dot indicators
+[33m3614d62[m feat: add SplashScreen with orange gradient and spring animation
+[33me8b5241[m feat: add reusable UI components (Button, Input, Card, Avatar, Badge, ProgressBar, Header, Skeleton)
+[33md0a621b[m feat: add TypeScript types (RootStackParamList, TabParamList, StudyCard, QuizQuestion, Message)
+[33me9813bd[m feat: add theme system (Colors, Fonts, Spacing, BorderRadius, Shadow)
+[33m7932909[m feat: add App.tsx entry point with font loading, GestureHandlerRootView and SafeAreaProvider
+[33m09efb92[m chore: add Babel, Tailwind, TypeScript and NativeWind config files
+[33m46b266b[m chore: update app.json SDK 54 config with expo-font, expo-camera, expo-image-picker plugins
+[33mb6bb418[m chore: update dependencies for SDK 54 compatibility (add typescript, @types/react, expo-clipboard, react-native-worklets)
+[33me8f5bcd[m feat(frontend): add Expo React Native app (SDK 55) — AI Smart Study Assistant
+[33mf370c8f[m feat(backend): add Node.js + Express API with study sessions and AI routes
+[33m62316ba[m chore: add root package.json and .gitignore
+[33mfdf00b9[m first commit

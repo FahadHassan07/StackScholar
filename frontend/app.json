@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AI Smart Study Assistant",
+    "slug": "ai-smart-study-assistant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF7A00"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aistudyassistant.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF7A00",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.aistudyassistant.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-camera",
+      "expo-image-picker"
+    ]
+  }
+}
